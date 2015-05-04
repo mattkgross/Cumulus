@@ -1,8 +1,35 @@
+body {
+    font-family: 'Merriweather', serif;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 14%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
 .main_header {
     background-color: hsl(0, 0%, 9%);
     color: hsl(255, 100%, 100%);
+    border-bottom-color: hsl(0, 0%, 16%);
 }
 
 .logo_header {
     margin: 10px;
+}
+
+.title_pane {
+    margin-top: 100px;
+    margin-bottom: 100px; /* not working */
+}
+
+.title_body {
+    background-image: url("../img/splash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 85%;
+    /* not working */
+    border-bottom: 20px;
+    border-bottom-color: hsl(0, 0%, 10%);
 }

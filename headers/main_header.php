@@ -27,7 +27,9 @@
 <!-- Angular.js -->
 <script src="js/angular.min.js"></script>
 
+<!-- Font Imports -->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+
 <!-- CSS styling for page -->
 <link href="css/main.css" rel="stylesheet">
-
-<!-- Font Imports -->
