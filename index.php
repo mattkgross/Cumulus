@@ -47,16 +47,7 @@
     <script src="js/wow.min.js"></script>
     <script>
         $(document).ready(function () {
-            var wow = new WOW(
-                {
-                    boxClass: 'wow',      // default
-                    animateClass: 'animated', // default
-                    offset: 0,          // default
-                    mobile: true,       // default
-                    live: true        // default
-                }
-            );
-            wow.init();
+            new WOW().init();
 
             // Begin FadeIn
             $('#overlay').css('opacity', '0.2');
@@ -77,7 +68,7 @@
     <div class="col-lg-3">Search/Misc</div>
 </div>-->
 <nav class="navbar navbar-fixed-top main_header">
-    <div class="container-fluid">
+    <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -138,7 +129,7 @@
 <div class="title_pane">
     <div id="overlay"></div>
     <div class="col-lg-12 title_body">
-        <h1>Hey</h1>
+        <h1>Welcome to Cumulus</h1>
     </div>
 </div>
 
