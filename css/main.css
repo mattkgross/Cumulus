@@ -1,11 +1,13 @@
 body {
     font-family: 'Merriweather', serif;
+    text-rendering: optimizeLegibility;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 14%);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
     text-align: center;
 }
 
@@ -20,16 +22,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title_pane {
-    margin-top: 100px;
-    margin-bottom: 100px; /* not working */
+    width: 100%;
+    height: 100%;
 }
 
 .title_body {
+    padding-top: 5%;
     background-image: url("../img/splash.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 85%;
-    /* not working */
-    border-bottom: 20px;
-    border-bottom-color: hsl(0, 0%, 10%);
+    height: 100%;
+    -webkit-transition: opacity 300ms ease;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 1;
+    transition: opacity 10s;
+}
+
+#overlay:hover {
+    opacity: 0.5;
 }

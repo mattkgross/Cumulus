@@ -93,14 +93,17 @@
 </nav>
 
 <div class="title_pane">
-    <div class="col-lg-offset-1 col-lg-10 title_body">
+    <div id="overlay"></div>
+    <div class="col-lg-12 title_body">
         <h1>Hey</h1>
     </div>
 </div>
 
+<!--
 <div class="col-lg-offset-1 col-lg-10 login_pane">
     <h2>Swag</h2>
 </div>
+-->
 </body>
 </html>
 

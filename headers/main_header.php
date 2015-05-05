@@ -12,6 +12,9 @@
 <script src="js/respond.min.js"></script>
 <![endif]-->
 
+<!-- CSS styling for page -->
+<link href="css/main.css" rel="stylesheet">
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.2.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -20,8 +23,22 @@
 <!-- Wow.js Linkage -->
 <link rel="stylesheet" href="css/animate.css">
 <script src="js/wow.min.js"></script>
-<script>
-    new WOW().init();
+<script type="javascript">
+    $(document).ready(function () {
+        var wow = new WOW(
+            {
+                boxClass: 'wow',      // default
+                animateClass: 'animated', // default
+                offset: 0,          // default
+                mobile: true,       // default
+                live: true        // default
+            }
+        );
+        wow.init();
+
+        // Begin FadeIn
+        $('#overlay').css('opacity', '0.2');
+    });
 </script>
 
 <!-- Angular.js -->
@@ -30,6 +47,3 @@
 <!-- Font Imports -->
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-
-<!-- CSS styling for page -->
-<link href="css/main.css" rel="stylesheet">
