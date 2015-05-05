@@ -50,7 +50,7 @@
             new WOW().init();
 
             // Begin FadeIn
-            $('#overlay').css('opacity', '0.2');
+            $('#overlay').css('opacity', '0.15');
         });
     </script>
 
@@ -126,9 +126,10 @@
     <!-- /.container-fluid -->
 </nav>
 
-<div class="title_pane">
+<div id="title_pane">
     <div id="overlay"></div>
-    <div class="col-lg-12 title_body">
+    <div id="title_body" class="col-lg-12"></div>
+    <div id="title_text" class="wow fadeIn animated" data-wow-delay="3.5s">
         <h1>Welcome to Cumulus</h1>
     </div>
 </div>
