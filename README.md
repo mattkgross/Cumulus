@@ -1,4 +1,4 @@
-# TuneSpy
-Tracks your Spotify listening habits and allows you to view your trends with (hopefully) beautiful UI.
+# Cumulus
+Cumulus tracks your Soundcloud listening habits and allows you to view your trends with a beautiful UI.
 
-[Visit Site](http://tunespy.azurewebsites.net/)
+[Visit Site](http://cumulus.azurewebsites.net/)
