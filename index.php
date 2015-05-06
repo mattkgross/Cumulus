@@ -67,9 +67,8 @@
     <div class="col-lg-6">Menu (align right)</div>
     <div class="col-lg-3">Search/Misc</div>
 </div>-->
-<nav class="navbar navbar-fixed-top main_header">
+<!--<nav class="navbar navbar-fixed-top main_header">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1">
@@ -81,7 +80,6 @@
             <a class="navbar-brand" href="#">Brand</a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
@@ -121,16 +119,26 @@
                 </li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
-</nav>
+</nav>-->
+<div id="main_header" class="wow slideInDown animated" data-wow-delay="4.0s">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Logout</a></li>
+    </ul>
+</div>
 
 <div id="title_pane">
     <div id="overlay"></div>
     <div id="title_body" class="col-lg-12"></div>
     <div id="title_text" class="wow fadeIn animated" data-wow-delay="3.5s">
         <h1>Welcome to Cumulus</h1>
+
+        <div id="sign">
+
+        </div>
     </div>
 </div>
 
