@@ -64,10 +64,10 @@
 <body>
 <div id="main_header" class="wow slideInDown animated" data-wow-delay="4.0s">
     <ul>
-        <li style="padding-left: 0px;"><a href="#">Home</a></li>
+        <li style="padding-left: 0;"><a href="#">Home</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Dashboard</a></li>
-        <li style="padding-right: 0px;"><a href="#">Logout</a></li>
+        <li style="padding-right: 0;"><a href="#">Logout</a></li>
     </ul>
 </div>
 
