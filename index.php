@@ -62,18 +62,14 @@
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<nav class="navbar navbar-fixed-top">
-    <div class="container-fluid">
-        <div id="main_header" class="collapse navbar-collapse wow slideInDown animated" data-wow-delay="4.0s">
-            <ul>
-                <li style="padding-left: 0px;"><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Dashboard</a></li>
-                <li style="padding-right: 0px;"><a href="#">Logout</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<div id="main_header" class="wow slideInDown animated" data-wow-delay="4.0s">
+    <ul>
+        <li style="padding-left: 0px;"><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li style="padding-right: 0px;"><a href="#">Logout</a></li>
+    </ul>
+</div>
 
 <div id="title_pane">
     <div id="overlay"></div>

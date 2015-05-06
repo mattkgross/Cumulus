@@ -16,9 +16,10 @@ nav {
 }
 
 #main_header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
@@ -34,7 +35,7 @@ nav {
 }
 
 #main_header ul {
-    padding: 0px;
+    padding: 0;
 }
 
 #main_header li {
@@ -50,7 +51,6 @@ nav {
     opacity: 0.7;
     margin: 1rem 1rem;
     padding: 0 1rem;
-    /*font-family: 'Lato', 'Roboto Condensed', sans-serif;*/
     -webkit-transition: opacity 300ms ease;
     transition: opacity 300ms;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
@@ -58,6 +58,19 @@ nav {
 
 #main_header li :hover {
     opacity: 1;
+}
+
+/* Header Styling for mobile devices */
+@media (max-width: 768px) {
+    #main_header li {
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+
+    #main_header li > a {
+        font-size: 1rem;
+        margin: 0.5rem 0.5rem;
+    }
 }
 
 #title_pane {
@@ -86,12 +99,12 @@ nav {
 #title_body {
     padding-top: 5%;
     background-image: url("../img/splash.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-repeat: no-repeat;
     height: 100%;
     z-index: 0;
 }
@@ -109,5 +122,16 @@ nav {
 }
 
 #sign {
-    margin-top:;
+    margin-top: 5%;
+}
+
+/* Title for mobile devices */
+@media (max-width: 768px) {
+    #title_text {
+        padding-top: 15%;
+    }
+
+    #title_text h1 {
+        font-size: 24px;
+    }
 }
