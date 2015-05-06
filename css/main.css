@@ -36,6 +36,8 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     background-color: #000;
     opacity: 1;
+    -webkit-transition-delay: 500ms;
+    transition-delay: 500ms;
     -webkit-transition: opacity 10s ease;
     transition: opacity 8s;
     z-index: 1;
